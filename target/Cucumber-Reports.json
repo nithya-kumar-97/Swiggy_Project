@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T13:39:00.939Z",
+        "line": 3,
+        "name": "User  Enters The Desired Location",
+        "description": "",
+        "id": "order-the-food;user--enters-the-desired-location",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17537000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Swiggy Application",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_launch_the_swiggy_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user  Enters the Location \"Anna Nagar\" In Location Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anna Nagar\"",
+                  "offset": 26
+                }
+              ],
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_enters_the_location_in_location_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Clear button",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.click_clear_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters the Location \"Ann\" In Location Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ann\"",
+                  "offset": 20
+                }
+              ],
+              "location": "swiggy.StepDefinition.StepDefinitionClass.enters_the_location_in_location_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select The Desired Location From The Location Suggestions and Navigates To Home Page",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.select_the_desired_location_from_the_location_suggestions_and_navigates_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T13:39:19.813Z",
+        "line": 11,
+        "name": "Select The Required Food",
+        "description": "",
+        "id": "order-the-food;select-the-required-food",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2581000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Is On Search Page",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 855000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Enters The Required Food \"Grill Chicken\" In Search Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Grill Chicken\"",
+                  "offset": 30
+                }
+              ],
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_enters_the_required_food_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4183000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Can Select The Required Food in Food List",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_can_select_the_required_food_in_food_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T13:39:27.460Z",
+        "line": 16,
+        "name": "Add The Food Item In Cart",
+        "description": "",
+        "id": "order-the-food;add-the-food-item-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5475000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Select The Required Hotel and Add button",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.user_select_the_required_hotel_and_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1676000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click The Required Quantity and Add The Item In Cart",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.click_the_required_quantity_and_add_the_item_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7876000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click Cart button and Check The Required Order Is In Cart",
+            "match": {
+              "location": "swiggy.StepDefinition.StepDefinitionClass.click_cart_button_and_check_the_required_order_is_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order the food",
+    "description": "",
+    "id": "order-the-food",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFile/swiggy.feature",
+    "tags": []
+  }
+]
